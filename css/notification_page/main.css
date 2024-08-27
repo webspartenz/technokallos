@@ -1,0 +1,91 @@
+.image1{
+    height: 35px;
+    width: 35px;
+    border-radius: 17.5px;
+    margin-left: 10px;
+  }
+  .first-word{
+    font-family: arial;
+    font-size: 15px;
+  }
+  .whole{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0px;
+    height: 70px;
+    width:700px;
+    max-width:100%;
+    min-width: 400px;
+    background-color: white;
+    margin-left: 350px;
+    margin-top: 40px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    align-items:center;
+    border-radius: 5px;;
+  }
+  .timing
+  {
+    
+    color: rgb(126,139,154);
+    padding-top: 2px;
+  }
+  .letter
+  {
+    margin-top: 10px;
+    margin-left: 10px;
+    flex:1;
+    max-width: 500px;
+  }
+  .image2,
+  .image3,
+  .image4,
+  .image5,
+  .image6,
+  .image7
+  {
+    height: 30px;
+    display: inline-block;
+    transition: all 0.15s;
+  }
+  .img2
+  {
+    width:90px;
+  }
+  .stepper
+  {
+    height: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .image2:hover,
+  .image3:hover,
+  .image4:hover,
+  .image5:hover,
+  .image6:hover,
+  .image7:hover{
+    height: 35px ;
+    background-color: rgb(141, 141, 141);
+    opacity: 0.4;
+    border-radius: 17.5px;
+  }
+  .page{
+    display: grid;
+    grid-template-columns: 700px;
+    margin-top:30px;
+  }
+  .page .top{
+    color:black;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:-10px;
+    margin-left:110px;
+    font-size:20px;
+    font-weight: bold;
+    font-family:Arial;
+    color:grey;
+  }

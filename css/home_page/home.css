@@ -1,0 +1,8 @@
+.main_page{
+    background-color: aqua;
+    margin-top:80px;
+}
+.content{
+    width:600px;
+    place-items: center;
+}

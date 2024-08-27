@@ -1,0 +1,239 @@
+.header_total{
+    display:flex;
+    flex-direction:row;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding-bottom:10px;
+    padding-top:10px;
+    align-items: center;
+    background-color: white;
+    box-shadow:0px 10px 40px rgba(189, 189, 189);
+    z-index: 102;
+    max-height:70px;
+}
+.first_portion{
+    width:110px;
+    img{
+        margin:0px 0 0 5px;
+    }
+}
+.second_portion{
+    width:250px;     
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        font-family: Arial;
+        font-size:15px;
+        font-weight: bold;
+        height:25px;
+        border:none;
+        transition: all 0.15s;
+        margin:0 20px 0 20px;
+        background-color: white;
+    }
+    button:hover{
+        cursor:pointer;
+        font-size: 105%;
+    }
+}
+.third_portion{
+    flex:1;
+    display:flex;
+    width:400px;
+    height:46px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    margin:0 150px 0 100px;
+    border-radius: 35px;
+    input{
+        flex:1;
+        height:36px;
+        width: 300px;
+        margin-left:10px;
+        padding-left:12px;
+        border:none;
+    }
+    img{
+        margin-right: 10px;
+        width:25px;
+        height:25px;
+        background-color: white;
+        margin-top:5px;
+    }
+    img:hover{
+        cursor:pointer;
+    }
+    input:focus{
+        border: none;
+        border-color:white;
+    }
+    .search{
+      position:relative;
+    }
+    .search:hover .tooltip{
+      opacity:1;
+    }
+    .tooltip{
+        display:flex;
+        position:absolute;
+        background-color: grey;
+        color:white;
+        padding:2px 6px 2px 6px;
+        opacity:0;
+        border-radius:5px; 
+        transition: all 0.20s;
+        text-align:center;
+        margin-left:-20px;
+        pointer-events: none;
+  }
+    
+    input[type="text"]:focus::placeholder{
+        color:rgb(26, 26, 185);
+        transition: all 0.6s;
+    }
+    input[type="text"]:focus{
+        border:none;
+    }
+}
+.fourth_portion{
+    width:300px;
+    display:flex;
+    margin-right:-20px;
+    img{
+        position:fixed;
+        width:25px;
+        height:27px;
+        margin:0 16px 0 0;
+    }
+    .button {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(44, 44, 44);
+        border-radius: 50%;
+        cursor: pointer;
+        transition-duration: .3s;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
+        border: none;
+      }
+      img:hover{
+        cursor:pointer;
+      }
+      div{
+        width:60px;
+        position:relative;
+        vertical-align: center;
+      }
+      div:hover .tooltip{
+        opacity:1;
+      }
+
+}
+.fourth_portion .profile{
+    margin-left:40px;
+}
+.fourth_portion img:hover{
+  size: 110%;
+}
+ .tooltip{
+        display:inline-block;
+        position:absolute;
+        background-color: grey;
+        color:white;
+        padding:2px 6px 2px 6px;
+        opacity:0;
+        border-radius:5px; 
+        transition: all 0.20s;
+        text-align:center;
+        margin-left:-20px;
+        bottom:-28px;
+        pointer-events: none;
+       
+        align-items: center;
+  }
+  .fourth_portion .first .tooltip{
+    padding-right:20px;
+  }
+
+  .fourth_portion .profile{
+    margin-left:40px;
+}
+
+
+
+.fourth_portion1{
+    width:300px;
+    display:flex;
+    margin-right:-20px;
+    height:60px;
+    img{
+        position:fixed;
+        width:25px;
+        height:27px;
+        margin:0 16px 0 0;
+    }
+    .button {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(44, 44, 44);
+        border-radius: 50%;
+        cursor: pointer;
+        transition-duration: .3s;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
+        border: none;
+      }
+      img:hover{
+        cursor:pointer;
+      }
+      div{
+        position:relative;
+        vertical-align: center;
+        display:flex;
+        flex-direction: column;
+        width:60px;
+      }
+      div:hover .tooltip{
+        opacity:1;
+      }
+
+}
+.fourth_portion1 img:hover{
+  size: 110%;
+}
+ .tooltip1{
+        display:inline-block;
+        position:absolute;
+        background-color: grey;
+        color:white;
+        padding:2px 6px 2px 6px;
+        opacity:0;
+        border-radius:5px; 
+        transition: all 0.20s;
+        text-align:center;
+        margin-left:-20px;
+        bottom:-28px;
+        pointer-events: none; 
+        align-items: center;
+  }
+  .fourth_portion1 .first .tooltip{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .fourth_portion1{
+    padding-top:20px;
+  }
+
+
+
+  
